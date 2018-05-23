@@ -2,7 +2,7 @@ const http = require('http');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-var url = 'http://www.ziroom.com/';
+var url = 'http://www.baidu.com/';
 
 http.get(url, function(res) {
     var html = '';
